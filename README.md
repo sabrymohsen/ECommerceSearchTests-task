@@ -16,8 +16,8 @@ This project contains Selenium-based automated test scripts for testing the sear
 Clone this repository to your local machine.
 
 ```bash
-git clone https://github.com/your-username/ecommerce-search-tests.git
-cd ecommerce-search-tests
+git clone https://github.com/sabrymohsen/ECommerceSearchTests-task.git
+
 ```
 
 ### 2. Install Dependencies
@@ -61,19 +61,6 @@ The main test class is `ECommerceSearchTests.java`. Below are the details of eac
 3. Applies a brand filter (HP).
 4. Verifies that all displayed results meet the price range and brand criteria.
 
-### tearDown() *(Optional)*
-This method can be used to close the browser after test completion. Uncomment this method to enable it:
-
-```java
-@AfterClass
-public void tearDown() {
-    driver.quit();
-}
-```
-
-## Troubleshooting
-- Make sure that the locators in the test script match the current website's HTML structure. These locators may need to be updated if the website changes.
-- If tests are failing due to timing issues, consider replacing `Thread.sleep()` with explicit waits (`WebDriverWait`) for a more reliable approach.
 
 
-# ECommerceSearchTests-task
+
